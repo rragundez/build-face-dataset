@@ -1,20 +1,10 @@
-#Build a Face Recognition System
+#Build Face Dataset from Collection of Images
 
-These files demonstrate what it will be achieved at the end of the tutorial. But in the notebok and with better use of classes.
+With these scripts you can extract the faces from a collection of images that you already have. You can specified the maximum number of faces to find per image. These faces found will be cropped from the original image and save in a separate folder with the same filename as the original image.
 
-### Adding a new face to the dataset
+### Adding a new faces to the dataset
 To add add new faces to the dataset execute:
 
 <code>
-  $ python build_dataset.py NAME_OF_PERSON
-</code>
-
-This will try to find your face one time per second, if a face is detected a green rectangle is shown, 
-together with the normalized face that is going to be saved to use later to train nthe algorithm.
-Try to collect around 20 pictures. And make them differently!! even you look silly :).
-
-Once the dataset has 2 or more people, execute:
-
-<code>
-  $ python recognition.py
+  $ python build_dataset.py
 </code>
