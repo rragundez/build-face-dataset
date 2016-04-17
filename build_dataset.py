@@ -21,10 +21,10 @@ if not os.path.isdir(DST_PATH):
     os.mkdir(DST_PATH)
 
 # specify which folders inside ROOT_PATH to look into
-FOLDERS = ['old']
+FOLDERS = ['']
 EXTENSIONS = ['png', 'jpg']
 # maximum amount of images to look for
-MAX_IMAGES = 10
+MAX_IMAGES = 1000
 MAX_NUMBER_OF_FACES_PER_IMAGE = 2
 
 FACES_BUILDER = DatasetBuilder(ROOT_PATH,
