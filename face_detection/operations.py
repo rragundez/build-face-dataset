@@ -29,7 +29,7 @@ def detect_face(image_gray, max_faces):
     # Minimum numberof neighbor sliding windows find a face
     min_neighbors = 5
     # Sets the min_size of the face we want to detect
-    min_size = (20, 20)
+    min_size = (50, 50)
     # Defines how we want the algorithm to run
     flags = cv2.CASCADE_SCALE_IMAGE
     faces_coord = face_class.detectMultiScale(image_gray,
